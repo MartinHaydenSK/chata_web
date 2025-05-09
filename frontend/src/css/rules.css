@@ -1,0 +1,25 @@
+.rules {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 50px;
+  min-height: 90svh;
+}
+
+.rules article {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+}
+.rules h1 {
+  text-align: center;
+  width: 100vw;
+}
+.rules article p {
+  text-align: center;
+}
