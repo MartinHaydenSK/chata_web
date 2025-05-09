@@ -19,8 +19,7 @@ const port = process.env.PORT || 3000;
 const adminEmail = "martinhayden303@gmail.com";
 const reviewsEmail = "lutramontanarecenzie@gmail.com";
 const noReplayEmail = "noreplaylutramontana@gmail.com";
-const dbPrefix =
-  "mongodb+srv://MartinHayden:martinhaydenjebest@cluster0.ar6z1.mongodb.net/chata_web";
+const dbPrefix = process.env.MONGODB_URI;
 const linkToBackend = "https://lutramontana-backend.vercel.app";
 const linkToFrontend = "https://www.lutramontana.sk";
 app.use(express.json());
